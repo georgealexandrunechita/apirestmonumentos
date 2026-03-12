@@ -81,3 +81,14 @@ Los tokens de refresco duran 7 días y rotan automáticamente.
 
 ## Estructura del Proyecto
 
+dwes-ud06-refact1/
+├── monumentproject/
+│ ├── settings.py -> Configuración (DRF, JWT, BBDD)
+│ └── urls.py -> Rutas principales
+├── monumentapp/
+│ ├── models.py -> Modelo Monument
+│ ├── serializers.py -> Serializadores
+│ └── views.py -> Vistas/controladores
+├── requirements.txt -> Dependencias
+└── manage.py
+
